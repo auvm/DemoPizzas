@@ -1,0 +1,16 @@
+ /* selecctor{
+            bloque
+} */
+body{
+    background-color: gray;
+}
+th{
+    border: solid 3px;
+}
+
+.fa-star{
+    color: goldenrod;
+}
+.fa-dollar-sign{
+    color: forestgreen;
+}
