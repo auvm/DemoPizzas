@@ -1,68 +1,82 @@
- /* selecctor{
-            bloque
-} */
+    /* selecctor{
+                bloque
+    } */
 
-/*paleta de colores
-#D90B1C
-#FAF566
-#9ACFDD
-#CABAAB
-#202731
+    /*paleta de colores
+    #D90B1C
+    #FAF566
+    #9ACFDD
+    #CABAAB
+    #202731
 
-degradado
-*/
-html{
+    degradado
+    */
+    html{
 
-}
+    }
 
-body{
+    body{
+        
+        font-family: 'Roboto', sans-serif;
+    }
+    h1{
+        font-family: 'Sriracha', cursive;
+        background-color: #FAF566;
+        border-radius: 0.5em;
+        padding: 10px;
+    }
+
     
-    font-family: 'Roboto', sans-serif;
-}
-h1{
-    font-family: 'Sriracha', cursive;
-    background-color: #FAF566;
-}
 
-.paragraph{
-    line-height: 1.8em;
-    font-weight: 200em;
+    .paragraph{
+        line-height: 1.8em;
+        font-weight: 200em;
 
-}
-.title{
-    text-transform: capitalize;
-}
+    }
+    .title{
+        text-transform: capitalize;
+    }
 
-a{
-    text-decoration: none;
-    color: #d500f9;
-    text-transform: capitalize;
-}
-.container{
-    background: #c2e59c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.content{
-    max-width: 960px;
-    max-height: 500px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
+    a{
+        text-decoration: none;
+        color: #d500f9;
+        text-transform: capitalize;
+    }
+    .container{
+        background: #c2e59c;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content{
+        
+        max-width: 960px;
+        max-height: 500px;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
 
+    table{
+        width: 100%;
+        border-spacing: 0;
+    }
 
-th{
-    border: solid 3px;
-}
+    table td, table th{
+        padding: 1em;
+        text-align: left;
+    }
 
-.fa-star{
-    color: goldenrod;
-}
-.fa-dollar-sign{
-    color: forestgreen;
-}
+    table tr:nth-child(even){
+        background-color: #f3e5f5;
+    }
+
+    .fa-star{
+        color: goldenrod;
+    }
+    .fa-dollar-sign{
+        color: forestgreen;
+    }
